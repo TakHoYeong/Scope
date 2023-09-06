@@ -2016,7 +2016,7 @@ Using cache manager: org.springframework.cache.jcache.JCacheCacheManager
 [INFO ] 04:43:23.671 c.s.scope.ipfilter.IpBanService - > Result : IP Address : 0:0:0:0:0:0:0:1
 [INFO ] 04:43:23.675 c.s.scope.ipfilter.HttpInterceptor - 초과 안함
 [INFO ] 04:43:23.676 c.s.s.controller.PostRestController - [80bc596b-a054-4d77-a0a7-bd9fd37b0b67], 프로젝트 조회, GET, /api/post, filter=;;;;;;;;;;;;;;, sort=createdAt, bookmarkRecommend=undefined
-[INFO ] 04:43:23.678 c.s.s.e.RestApiExceptionHandler - !!!Runtime Error, [80bc596b-a054-4d77-a0a7-bd9fd37b0b67], message=Cannot find cache named 'Post' for Builder[public java.util.List com.studycollaboproject.scope.service.PostService.readPost(java.lang.String,java.lang.String,java.lang.String,java.lang.String)] caches=[Post] | key='' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='' | sync='false'
+[INFO ] 04:43:23.678 c.s.s.e.RestApiExceptionHandler - !!!Runtime Error, [80bc596b-a054-4d77-a0a7-bd9fd37b0b67], message=Cannot find cache named 'Post' for Builder[public java.util.List com.studycollaboproject.scope.domain.post.service.PostService.readPost(java.lang.String,java.lang.String,java.lang.String,java.lang.String)] caches=[Post] | key='' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='' | sync='false'
 [INFO ] 04:43:23.679 c.s.scope.ipfilter.HttpInterceptor - ================ Method Completed
 [INFO ] 04:43:23.679 c.s.s.filter.JwtAuthenticationFilter - [80bc596b-a054-4d77-a0a7-bd9fd37b0b67], token=null
 [INFO ] 04:44:04.254 c.s.scope.ipfilter.HttpInterceptor - ================ Before Method
@@ -2036,7 +2036,7 @@ Using cache manager: org.springframework.cache.jcache.JCacheCacheManager
 [INFO ] 04:44:04.256 c.s.scope.ipfilter.IpBanService - > Result : IP Address : 0:0:0:0:0:0:0:1
 [INFO ] 04:44:04.261 c.s.scope.ipfilter.HttpInterceptor - 초과 안함
 [INFO ] 04:44:04.262 c.s.s.controller.PostRestController - [402ffbe4-7b93-40ea-9fee-daf48fcca96a], 프로젝트 조회, GET, /api/post, filter=;;;;;;;;;;;;;;, sort=createdAt, bookmarkRecommend=undefined
-[INFO ] 04:44:04.262 c.s.s.e.RestApiExceptionHandler - !!!Runtime Error, [402ffbe4-7b93-40ea-9fee-daf48fcca96a], message=Cannot find cache named 'Post' for Builder[public java.util.List com.studycollaboproject.scope.service.PostService.readPost(java.lang.String,java.lang.String,java.lang.String,java.lang.String)] caches=[Post] | key='' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='' | sync='false'
+[INFO ] 04:44:04.262 c.s.s.e.RestApiExceptionHandler - !!!Runtime Error, [402ffbe4-7b93-40ea-9fee-daf48fcca96a], message=Cannot find cache named 'Post' for Builder[public java.util.List com.studycollaboproject.scope.domain.post.service.PostService.readPost(java.lang.String,java.lang.String,java.lang.String,java.lang.String)] caches=[Post] | key='' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='' | sync='false'
 [INFO ] 04:44:04.263 c.s.scope.ipfilter.HttpInterceptor - ================ Method Completed
 [INFO ] 04:44:04.263 c.s.s.filter.JwtAuthenticationFilter - [402ffbe4-7b93-40ea-9fee-daf48fcca96a], token=null
 [INFO ] 06:31:23.468 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
@@ -2621,7 +2621,7 @@ Caused by: org.thymeleaf.exceptions.TemplateInputException: Error resolving temp
 [INFO ] 06:31:58.067 c.s.scope.ipfilter.IpBanService - > Result : IP Address : 0:0:0:0:0:0:0:1
 [INFO ] 06:31:58.072 c.s.scope.ipfilter.HttpInterceptor - 초과 안함
 [INFO ] 06:31:58.073 c.s.s.controller.PostRestController - [7f2b1d0e-28c1-40dd-ad14-269e000dee6d], 프로젝트 조회, GET, /api/post, filter=;;;;;;;;;;;;;;, sort=createdAt, bookmarkRecommend=undefined
-[INFO ] 06:31:58.075 c.s.s.e.RestApiExceptionHandler - !!!Runtime Error, [7f2b1d0e-28c1-40dd-ad14-269e000dee6d], message=Cannot find cache named 'Post' for Builder[public java.util.List com.studycollaboproject.scope.service.PostService.readPost(java.lang.String,java.lang.String,java.lang.String,java.lang.String)] caches=[Post] | key='' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='' | sync='false'
+[INFO ] 06:31:58.075 c.s.s.e.RestApiExceptionHandler - !!!Runtime Error, [7f2b1d0e-28c1-40dd-ad14-269e000dee6d], message=Cannot find cache named 'Post' for Builder[public java.util.List com.studycollaboproject.scope.domain.post.service.PostService.readPost(java.lang.String,java.lang.String,java.lang.String,java.lang.String)] caches=[Post] | key='' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='' | sync='false'
 [INFO ] 06:31:58.076 c.s.scope.ipfilter.HttpInterceptor - ================ Method Completed
 [INFO ] 06:31:58.076 c.s.s.filter.JwtAuthenticationFilter - [7f2b1d0e-28c1-40dd-ad14-269e000dee6d], token=null
 [INFO ] 06:46:00.050 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'

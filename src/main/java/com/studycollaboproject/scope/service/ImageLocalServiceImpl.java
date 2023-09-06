@@ -1,10 +1,9 @@
 package com.studycollaboproject.scope.service;
 
-import com.studycollaboproject.scope.exception.BadRequestException;
-import com.studycollaboproject.scope.exception.ErrorCode;
+import com.studycollaboproject.scope.global.error.exception.BadRequestException;
+import com.studycollaboproject.scope.global.error.exception.ErrorCode;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Service;
 
 import javax.imageio.ImageIO;
 import javax.xml.bind.DatatypeConverter;

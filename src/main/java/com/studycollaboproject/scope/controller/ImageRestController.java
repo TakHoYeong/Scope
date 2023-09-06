@@ -1,9 +1,9 @@
 package com.studycollaboproject.scope.controller;
 
 import com.studycollaboproject.scope.dto.ResponseDto;
-import com.studycollaboproject.scope.exception.ErrorCode;
-import com.studycollaboproject.scope.exception.NoAuthException;
-import com.studycollaboproject.scope.security.UserDetailsImpl;
+import com.studycollaboproject.scope.global.error.exception.ErrorCode;
+import com.studycollaboproject.scope.global.error.exception.NoAuthException;
+import com.studycollaboproject.scope.global.security.UserDetailsImpl;
 import com.studycollaboproject.scope.service.ImageService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;

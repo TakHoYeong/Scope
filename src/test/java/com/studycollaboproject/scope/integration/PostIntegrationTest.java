@@ -1,14 +1,14 @@
 package com.studycollaboproject.scope.integration;
 
-import com.studycollaboproject.scope.dto.PostRequestDto;
-import com.studycollaboproject.scope.dto.PostResponseDto;
-import com.studycollaboproject.scope.dto.SignupRequestDto;
-import com.studycollaboproject.scope.model.Post;
-import com.studycollaboproject.scope.model.ProjectStatus;
-import com.studycollaboproject.scope.model.User;
-import com.studycollaboproject.scope.service.PostService;
-import com.studycollaboproject.scope.service.TestService;
-import com.studycollaboproject.scope.service.UserService;
+import com.studycollaboproject.scope.domain.post.dto.PostRequestDto;
+import com.studycollaboproject.scope.domain.post.dto.PostResponseDto;
+import com.studycollaboproject.scope.domain.login.dto.SignupRequestDto;
+import com.studycollaboproject.scope.domain.post.model.Post;
+import com.studycollaboproject.scope.domain.post.model.ProjectStatus;
+import com.studycollaboproject.scope.domain.user.model.User;
+import com.studycollaboproject.scope.domain.post.service.PostService;
+import com.studycollaboproject.scope.domain.test.service.TestService;
+import com.studycollaboproject.scope.domain.user.service.UserService;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,16 +1,16 @@
 //package com.studycollaboproject.scope.util;
 //
-//import com.studycollaboproject.scope.dto.PostRequestDto;
-//import com.studycollaboproject.scope.dto.SignupTestDto;
-//import com.studycollaboproject.scope.dto.TestUserSetupDto;
-//import com.studycollaboproject.scope.model.TechStack;
+//import com.studycollaboproject.scope.domain.post.dto.PostRequestDto;
+//import com.studycollaboproject.scope.domain.login.dto.SignupTestDto;
+//import com.studycollaboproject.scope.domain.test.dto.TestUserSetupDto;
+//import com.studycollaboproject.scope.domain.tech.model.TechStack;
 //import com.studycollaboproject.scope.model.TotalResult;
-//import com.studycollaboproject.scope.model.User;
-//import com.studycollaboproject.scope.repository.TechStackRepository;
-//import com.studycollaboproject.scope.repository.TotalResultRepository;
-//import com.studycollaboproject.scope.repository.UserRepository;
+//import com.studycollaboproject.scope.domain.user.model.User;
+//import com.studycollaboproject.scope.domain.tech.repository.TechStackRepository;
+//import com.studycollaboproject.scope.domain.totalresult.repository.TotalResultRepository;
+//import com.studycollaboproject.scope.domain.user.repository.UserRepository;
 //import com.studycollaboproject.scope.security.JwtTokenProvider;
-//import com.studycollaboproject.scope.service.PostService;
+//import com.studycollaboproject.scope.domain.post.service.PostService;
 //import lombok.RequiredArgsConstructor;
 //import org.springframework.boot.ApplicationArguments;
 //import org.springframework.boot.ApplicationRunner;

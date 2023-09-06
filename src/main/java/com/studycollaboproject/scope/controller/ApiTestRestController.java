@@ -1,12 +1,12 @@
 //package com.studycollaboproject.scope.controller;
 //
 //import com.studycollaboproject.scope.dto.ResponseDto;
-//import com.studycollaboproject.scope.dto.SignupTestDto;
+//import com.studycollaboproject.scope.domain.login.dto.SignupTestDto;
 //import com.studycollaboproject.scope.listener.SessionUserCounter;
-//import com.studycollaboproject.scope.model.User;
-//import com.studycollaboproject.scope.repository.UserRepository;
+//import com.studycollaboproject.scope.domain.user.model.User;
+//import com.studycollaboproject.scope.domain.user.repository.UserRepository;
 //import com.studycollaboproject.scope.security.JwtTokenProvider;
-//import com.studycollaboproject.scope.service.AssessmentService;
+//import com.studycollaboproject.scope.domain.assessment.AssessmentService;
 //import io.swagger.v3.oas.annotations.Operation;
 //import io.swagger.v3.oas.annotations.Parameter;
 //import io.swagger.v3.oas.annotations.enums.ParameterIn;
