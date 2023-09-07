@@ -2,7 +2,7 @@ package com.studycollaboproject.scope.domain.post.dto;
 
 import com.studycollaboproject.scope.domain.post.model.Post;
 import com.studycollaboproject.scope.domain.team.model.Team;
-import com.studycollaboproject.scope.domain.tech.model.TechStack;
+import com.studycollaboproject.scope.domain.post.model.TechStack;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,7 +1,7 @@
 package com.studycollaboproject.scope.domain.post.repository;
 
 import com.studycollaboproject.scope.domain.post.model.Post;
-import com.studycollaboproject.scope.domain.tech.model.Tech;
+import com.studycollaboproject.scope.domain.post.model.Tech;
 import org.springframework.data.domain.Pageable;
 
 import java.util.List;

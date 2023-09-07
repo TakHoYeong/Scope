@@ -1,8 +1,8 @@
 package com.studycollaboproject.scope.global.util;
 
 import com.studycollaboproject.scope.domain.post.model.Post;
-import com.studycollaboproject.scope.domain.tech.model.Tech;
-import com.studycollaboproject.scope.domain.tech.model.TechStack;
+import com.studycollaboproject.scope.domain.post.model.Tech;
+import com.studycollaboproject.scope.domain.post.model.TechStack;
 import com.studycollaboproject.scope.domain.user.model.User;
 import org.springframework.stereotype.Component;
 

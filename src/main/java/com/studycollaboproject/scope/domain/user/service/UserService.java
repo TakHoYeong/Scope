@@ -1,21 +1,21 @@
 package com.studycollaboproject.scope.domain.user.service;
 
-import com.studycollaboproject.scope.domain.bookmark.BookmarkRepository;
-import com.studycollaboproject.scope.domain.login.dto.LoginReponseDto;
-import com.studycollaboproject.scope.domain.login.dto.SnsInfoDto;
+import com.studycollaboproject.scope.domain.post.repository.BookmarkRepository;
+import com.studycollaboproject.scope.domain.user.dto.LoginReponseDto;
+import com.studycollaboproject.scope.domain.user.dto.SnsInfoDto;
 import com.studycollaboproject.scope.domain.post.model.Post;
 import com.studycollaboproject.scope.domain.post.model.ProjectStatus;
 import com.studycollaboproject.scope.domain.team.model.Team;
 import com.studycollaboproject.scope.domain.post.repository.PostRepository;
 import com.studycollaboproject.scope.domain.team.repository.TeamRepository;
-import com.studycollaboproject.scope.domain.tech.repository.TechStackRepository;
+import com.studycollaboproject.scope.domain.post.repository.TechStackRepository;
 import com.studycollaboproject.scope.domain.user.dto.UserRequestDto;
 import com.studycollaboproject.scope.domain.user.dto.UserResponseDto;
-import com.studycollaboproject.scope.domain.tech.model.TechStack;
+import com.studycollaboproject.scope.domain.post.model.TechStack;
 import com.studycollaboproject.scope.domain.user.model.User;
 import com.studycollaboproject.scope.domain.applicant.repository.ApplicantRepository;
 import com.studycollaboproject.scope.domain.user.repository.UserRepository;
-import com.studycollaboproject.scope.dto.*;
+import com.studycollaboproject.scope.global.common.ResponseDto;
 import com.studycollaboproject.scope.global.error.exception.BadRequestException;
 import com.studycollaboproject.scope.global.error.exception.ErrorCode;
 import com.studycollaboproject.scope.global.security.JwtTokenProvider;

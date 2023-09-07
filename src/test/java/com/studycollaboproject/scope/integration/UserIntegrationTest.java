@@ -1,10 +1,10 @@
 package com.studycollaboproject.scope.integration;
 
-import com.studycollaboproject.scope.domain.login.dto.SignupRequestDto;
+import com.studycollaboproject.scope.domain.user.dto.SignupRequestDto;
 import com.studycollaboproject.scope.domain.user.dto.UserResponseDto;
 import com.studycollaboproject.scope.domain.user.model.User;
 import com.studycollaboproject.scope.domain.post.service.PostService;
-import com.studycollaboproject.scope.domain.test.service.TestService;
+import com.studycollaboproject.scope.domain.propensityTest.service.TestService;
 import com.studycollaboproject.scope.domain.user.service.UserService;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;

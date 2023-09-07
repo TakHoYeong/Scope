@@ -3,8 +3,6 @@ package com.studycollaboproject.scope.domain.post.model;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.studycollaboproject.scope.domain.team.model.Team;
 import com.studycollaboproject.scope.domain.applicant.model.Applicant;
-import com.studycollaboproject.scope.domain.bookmark.Bookmark;
-import com.studycollaboproject.scope.domain.tech.model.TechStack;
 import com.studycollaboproject.scope.domain.user.model.User;
 import com.studycollaboproject.scope.domain.post.dto.PostRequestDto;
 import com.studycollaboproject.scope.global.util.Timestamped;

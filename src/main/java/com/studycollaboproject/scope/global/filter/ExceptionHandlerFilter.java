@@ -1,7 +1,7 @@
 package com.studycollaboproject.scope.global.filter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.studycollaboproject.scope.dto.ResponseDto;
+import com.studycollaboproject.scope.global.common.ResponseDto;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import javax.servlet.FilterChain;

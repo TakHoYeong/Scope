@@ -1,11 +1,11 @@
 package com.studycollaboproject.scope.domain.user.model;
 
 import com.studycollaboproject.scope.domain.applicant.model.Applicant;
-import com.studycollaboproject.scope.domain.bookmark.Bookmark;
-import com.studycollaboproject.scope.domain.login.dto.SignupRequestDto;
-import com.studycollaboproject.scope.domain.login.dto.SignupTestDto;
-import com.studycollaboproject.scope.domain.tech.model.TechStack;
-import com.studycollaboproject.scope.domain.test.dto.TestUserSetupDto;
+import com.studycollaboproject.scope.domain.post.model.Bookmark;
+import com.studycollaboproject.scope.domain.user.dto.SignupRequestDto;
+import com.studycollaboproject.scope.domain.user.dto.SignupTestDto;
+import com.studycollaboproject.scope.domain.post.model.TechStack;
+import com.studycollaboproject.scope.domain.propensityTest.dto.TestUserSetupDto;
 import com.studycollaboproject.scope.global.util.Timestamped;
 import com.studycollaboproject.scope.domain.team.model.Team;
 import lombok.AccessLevel;

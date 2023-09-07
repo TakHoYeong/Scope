@@ -3,7 +3,7 @@ package com.studycollaboproject.scope.domain.post.repository;
 
 import com.studycollaboproject.scope.domain.post.model.Post;
 import com.studycollaboproject.scope.domain.post.model.ProjectStatus;
-import com.studycollaboproject.scope.domain.tech.model.Tech;
+import com.studycollaboproject.scope.domain.post.model.Tech;
 import com.studycollaboproject.scope.domain.user.model.User;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

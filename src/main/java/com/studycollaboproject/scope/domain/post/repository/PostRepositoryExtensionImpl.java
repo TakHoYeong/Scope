@@ -3,7 +3,7 @@ package com.studycollaboproject.scope.domain.post.repository;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import com.studycollaboproject.scope.domain.post.model.Post;
 import com.studycollaboproject.scope.domain.post.model.ProjectStatus;
-import com.studycollaboproject.scope.domain.tech.model.Tech;
+import com.studycollaboproject.scope.domain.post.model.Tech;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Repository;
