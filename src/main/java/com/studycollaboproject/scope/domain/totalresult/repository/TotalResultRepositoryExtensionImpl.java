@@ -10,6 +10,7 @@ import static com.studycollaboproject.scope.model.QPost.post;
 import static com.studycollaboproject.scope.model.QTeam.team;
 import static com.studycollaboproject.scope.model.QTotalResult.totalResult;
 
+// model 패키지 안에 3개의 static 클래스가 실종 EntityPath?. 뭐 전달하는거 같은데
 @Repository
 @RequiredArgsConstructor
 public class TotalResultRepositoryExtensionImpl implements TotalResultRepositoryExtension {

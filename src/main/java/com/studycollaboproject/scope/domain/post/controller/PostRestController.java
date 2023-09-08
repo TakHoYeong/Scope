@@ -1,11 +1,8 @@
 package com.studycollaboproject.scope.domain.post.controller;
 
-import com.studycollaboproject.scope.domain.post.dto.PostDetailDto;
-import com.studycollaboproject.scope.domain.post.dto.PostRequestDto;
-import com.studycollaboproject.scope.domain.post.dto.PostResponseDto;
-import com.studycollaboproject.scope.domain.post.dto.ProjectStatusRequestDto;
+import com.studycollaboproject.scope.domain.post.dto.*;
 import com.studycollaboproject.scope.domain.team.dto.MemberListResponseDto;
-import com.studycollaboproject.scope.dto.*;
+import com.studycollaboproject.scope.global.common.ResponseDto;
 import com.studycollaboproject.scope.global.error.exception.ErrorCode;
 import com.studycollaboproject.scope.global.error.exception.NoAuthException;
 import com.studycollaboproject.scope.domain.post.model.Post;

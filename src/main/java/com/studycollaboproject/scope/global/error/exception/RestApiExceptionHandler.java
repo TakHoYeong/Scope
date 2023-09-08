@@ -1,6 +1,6 @@
 package com.studycollaboproject.scope.global.error.exception;
 
-import com.studycollaboproject.scope.dto.ResponseDto;
+import com.studycollaboproject.scope.global.common.ResponseDto;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.MDC;
 import org.springframework.http.HttpStatus;

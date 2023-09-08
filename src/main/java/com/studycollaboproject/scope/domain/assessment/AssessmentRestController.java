@@ -1,12 +1,12 @@
 package com.studycollaboproject.scope.domain.assessment;
 
-import com.studycollaboproject.scope.domain.mail.MailDto;
-import com.studycollaboproject.scope.dto.ResponseDto;
+import com.studycollaboproject.scope.global.common.mail.MailDto;
+import com.studycollaboproject.scope.global.common.ResponseDto;
 import com.studycollaboproject.scope.global.error.exception.ErrorCode;
 import com.studycollaboproject.scope.global.error.exception.NoAuthException;
 import com.studycollaboproject.scope.domain.user.model.User;
 import com.studycollaboproject.scope.global.security.UserDetailsImpl;
-import com.studycollaboproject.scope.domain.mail.MailService;
+import com.studycollaboproject.scope.global.common.mail.MailService;
 import com.studycollaboproject.scope.domain.user.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;

@@ -1,6 +1,6 @@
 package com.studycollaboproject.scope.domain.user.controller;
 
-import com.studycollaboproject.scope.dto.ResponseDto;
+import com.studycollaboproject.scope.global.common.ResponseDto;
 import com.studycollaboproject.scope.domain.user.dto.UserInfoResponseDto;
 import com.studycollaboproject.scope.global.error.exception.ErrorCode;
 import com.studycollaboproject.scope.global.error.exception.ForbiddenException;
