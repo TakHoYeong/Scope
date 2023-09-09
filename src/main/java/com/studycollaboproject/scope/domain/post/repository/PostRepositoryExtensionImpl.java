@@ -3,7 +3,9 @@ package com.studycollaboproject.scope.domain.post.repository;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import com.studycollaboproject.scope.domain.post.model.Post;
 import com.studycollaboproject.scope.domain.post.model.ProjectStatus;
+import com.studycollaboproject.scope.domain.post.model.QTechStack;
 import com.studycollaboproject.scope.domain.post.model.Tech;
+import com.studycollaboproject.scope.domain.team.model.QTeam;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Repository;
@@ -13,8 +15,9 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.studycollaboproject.scope.model.QPost.post;
-import static com.studycollaboproject.scope.model.QUser.user;
+import static com.studycollaboproject.scope.domain.post.model.QPost.post;
+import static com.studycollaboproject.scope.domain.user.model.QUser.user;
+
 
 @Repository
 @RequiredArgsConstructor

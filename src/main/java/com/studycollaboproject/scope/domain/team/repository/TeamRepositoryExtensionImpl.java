@@ -9,9 +9,10 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-import static com.studycollaboproject.scope.model.QPost.post;
-import static com.studycollaboproject.scope.model.QTeam.team;
-import static com.studycollaboproject.scope.model.QUser.user;
+import static com.studycollaboproject.scope.domain.post.model.QPost.post;
+import static com.studycollaboproject.scope.domain.team.model.QTeam.team;
+import static com.studycollaboproject.scope.domain.user.model.QUser.user;
+
 
 @Repository
 @RequiredArgsConstructor

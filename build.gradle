@@ -72,7 +72,9 @@ dependencies {
 
     //aws
     implementation 'org.springframework.cloud:spring-cloud-starter-aws:2.2.6.RELEASE'
+
 }
+
 //querydsl 추가 시작
 def querydslDir = "$buildDir/generated/querydsl"
 
