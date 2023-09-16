@@ -1,5 +1,9 @@
-package com.studycollaboproject.scope.domain.user.dto;
+package com.studycollaboproject.scope.domain.user.controller;
 
+import com.studycollaboproject.scope.domain.user.dto.MypageResponseDto;
+import com.studycollaboproject.scope.domain.user.dto.SignupRequestDto;
+import com.studycollaboproject.scope.domain.user.dto.UserRequestDto;
+import com.studycollaboproject.scope.domain.user.dto.UserResponseDto;
 import com.studycollaboproject.scope.global.common.ResponseDto;
 import com.studycollaboproject.scope.global.error.exception.BadRequestException;
 import com.studycollaboproject.scope.global.error.exception.ErrorCode;

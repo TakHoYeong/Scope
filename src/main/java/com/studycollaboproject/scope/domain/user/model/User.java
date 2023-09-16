@@ -20,6 +20,7 @@ import java.util.UUID;
 @Getter
 @Entity
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
+@Table(name = "UserEntity")
 public class User extends Timestamped {
 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
