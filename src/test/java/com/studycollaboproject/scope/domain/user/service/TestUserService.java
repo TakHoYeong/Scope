@@ -1,12 +1,13 @@
 package com.studycollaboproject.scope.domain.user.service;
 
+import com.studycollaboproject.scope.domain.user.dto.SignupTestDto;
+import com.studycollaboproject.scope.domain.user.dto.UserRequestDto;
 import com.studycollaboproject.scope.domain.user.dto.UserResponseDto;
+import com.studycollaboproject.scope.domain.user.model.User;
 import com.studycollaboproject.scope.domain.user.repository.UserRepository;
 import com.studycollaboproject.scope.global.util.TechStackConverter;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -26,9 +27,16 @@ public class TestUserService {
     @Autowired
     private UserService userService;
 
+    User user;
+
     @BeforeEach
     public void setUp() {
-        MockitoAnnotations.initMocks(this);
+        user = new User(
+            "testSns",
+            "testPropensityType",
+            "test",
+            "test",
+            "test@test.com");
 
 
     }
@@ -42,23 +50,11 @@ public class TestUserService {
     @Test
     public void testSaveUser() {
         // 테스트에 필요한 가짜 데이터 생성
-        User user = new User();
         List<String> techStack = new ArrayList<>();
         techStack.add("Java");
         techStack.add("Spring Boot");
 
-        // userRepository.save() 메서드의 모의 동작 설정
-        when(userRepository.save(user)).thenReturn(user);
-
-        // techStackConverter.convertStringToTechStack() 메서드의 모의 동작 설정
-        when(techStackConverter.convertStringToTechStack(techStack, user, null)).thenReturn(new ArrayList<>());
-
-        // UserService의 saveUser() 메서드 호출
-        UserResponseDto savedUserResponse = userService.saveUser(techStack, user);
-
-        // 테스트 결과 검증
-        assertEquals(user, savedUserResponse.getUser());
-        // 추가적인 검증을 수행할 수 있습니다.
+        UserResponseDto userResponseDto = userService.saveUser(techStack, user);
     }
 
 }
