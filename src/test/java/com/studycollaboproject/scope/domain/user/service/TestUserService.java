@@ -11,23 +11,23 @@ import org.junit.jupiter.api.Test;
 import org.mockito.MockitoAnnotations;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.Profile;
+import org.springframework.test.context.ActiveProfiles;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@SpringBootTest
+import static org.junit.jupiter.api.Assertions.*;
+
+@SpringBootTest()
+@ActiveProfiles("dev")
 public class TestUserService {
-
-    @Autowired
-    private UserRepository userRepository;
-
-    @Autowired
-    private TechStackConverter techStackConverter;
 
     @Autowired
     private UserService userService;
 
     User user;
+    List<String> techStack;
 
     @BeforeEach
     public void setUp() {
@@ -38,6 +38,9 @@ public class TestUserService {
             "test",
             "test@test.com");
 
+        techStack = new ArrayList<>();
+        techStack.add("Java");
+        techStack.add("Spring Boot");
 
     }
 
@@ -50,11 +53,9 @@ public class TestUserService {
     @Test
     public void testSaveUser() {
         // 테스트에 필요한 가짜 데이터 생성
-        List<String> techStack = new ArrayList<>();
-        techStack.add("Java");
-        techStack.add("Spring Boot");
-
         UserResponseDto userResponseDto = userService.saveUser(techStack, user);
-    }
 
+        assertEquals(user.getNickname(), userResponseDto.getNickname());
+
+    }
 }

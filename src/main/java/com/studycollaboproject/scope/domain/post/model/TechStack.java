@@ -28,6 +28,7 @@ public class TechStack {
     @JoinColumn(name = "user_id")
     private User user;
 
+    // 연관관계 편의 메소드
     public TechStack(Tech tech, User user) {
         this.tech = tech;
         this.user = user;
